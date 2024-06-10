@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "${MODEL+x}" ]; then
-  MODEL="TheBloke/Synthia-34B-v1.2-GPTQ"
+  MODEL="CohereForAI/c4ai-command-r-plus-4bit"
 fi
 
 # Replace slashes with underscores

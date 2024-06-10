@@ -2,7 +2,7 @@
 
 COMMIT="2af7e382b121f2eae16dd1f7ace621d31028b319"
 TORCH_VERSION="2.1.2"
-MODEL="TheBloke/Synthia-34B-v1.2-GPTQ"
+MODEL="CohereForAI/c4ai-command-r-plus-4bit"
 
 echo "Deleting Oobabooga Text Generation Web UI"
 rm -rf /workspace/text-generation-webui
